@@ -1,0 +1,14 @@
+{
+  "name": "openapi",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-typescript-fetch": "openapi-generator-cli generate -i petstore.yaml -g typescript-fetch -o ../front/src/generated"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.5.2"
+  }
+}
